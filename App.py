@@ -18,7 +18,7 @@ st.set_page_config(
 
 # --- Criar o dataframe
 df = pd.read_excel(
-    io = './Datasets/system_extraction.xlsx',
+    io = 'https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fdiegofroliveira%2Fstreamlitpython%2Fmain%2Fsystem_extraction.xlsx&wdOrigin=BROWSELINK',
     engine='openpyxl',
     sheet_name='salesreport',
     usecols='A:J',
